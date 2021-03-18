@@ -1,0 +1,19 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: examplewdocs
+  subscribe: Apigee
+  archerID: 1234
+  domain: cargo
+  criticality: vital
+  annotations:
+    backstage.io/kubernetes-id: examplewdocs
+    backstage.io/techdocs-ref: url:https://github.com/LucasFDesoza/examplewdocs
+spec: 
+  lifecycle: experimental
+  owner: "Lucas Desouza"
+  squad: whocares
+  averageResponseTime: 100ms
+  maxResponseTime: 200ms
+  type: service
